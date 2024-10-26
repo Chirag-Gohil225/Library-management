@@ -1,4 +1,4 @@
-##useless
+##useless project, vague af text fields
 from tkinter import *
 
 ##Sets and configure the windo of the library management systemto be opened
@@ -19,7 +19,7 @@ global book_name_removed_for_dict
 global holder_name_removed_for_dict 
 ##################
 _text_ = Text(ws, width=50,height=10)
-_text_.insert(END, "First box is for adding books, \n Second two for book name and borrower name and \nthrid two for returning book and issuer name \n Errors will be logged below")
+_text_.insert(END, "First box is for adding books to the list of books in the library, \n Next two input fields for the detils of the book title, borrower. \nthrid two for returning book and issuer name \n Errors will be logged below")
 _text_.pack()
 #################
 '''function defined for adding books y entering a name in given textbox'''
